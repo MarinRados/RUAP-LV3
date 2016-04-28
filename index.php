@@ -33,6 +33,7 @@ to register.</p>
  $user = "bd98a0bf56345f";
  $pwd = "ae6836f2";
  $db = "nekabaza";
+ 
  // Connect to database.
  try {
  $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
